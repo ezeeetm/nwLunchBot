@@ -14,7 +14,8 @@
             US Cellular [insert 10-digit number] @email.uscc.net
             Verizon [insert 10-digit number] @vtext.com
             Virgin Mobile [insert 10-digit number] @vmobl.com
-            Republic Wireless [insert 10-digit number] @text.republicwireless.com         
+            Republic Wireless [insert 10-digit number] @text.republicwireless.com 
+            Google Fi [insert 10-digit number] @msg.fi.google.com
 #>
 
 

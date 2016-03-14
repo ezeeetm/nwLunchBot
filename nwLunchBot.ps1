@@ -51,6 +51,7 @@ $restaurants = @(
 'Greek Street'
 )
 
+# Be sure to enable this for gmail accounts: https://www.google.com/settings/security/lesssecureapps.  System.Net.Mail.SmtpClient sucks.
 $SMTPServer = "smtp.gmail.com"
 $SMTPPort = "587"
 $Username = "sendingGmailAccount@gmail.com"

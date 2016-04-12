@@ -27,10 +27,14 @@ $subscribers=@(
 
 $locations = @(
 @('3747','Plaza One'),
-@('3743','Plaza Three')
+@('3743','Plaza Three'),
+@('3742','Rings Rd')
 )
 
 $restaurants = @(
+'Tavolino Pasta Bar',
+'Short North Bagel',
+'Hot Heads',
 'Broad Street Philly''s',
 'Claddagh',
 'Zoca',

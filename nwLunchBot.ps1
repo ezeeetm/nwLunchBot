@@ -32,6 +32,7 @@ $locations = @(
 )
 
 $restaurants = @(
+'Panda Express',
 'Tavolino Pasta Bar',
 'Short North Bagel',
 'Hot Heads',

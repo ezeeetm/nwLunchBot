@@ -57,6 +57,7 @@ $restaurants = @(
 )
 
 # Be sure to enable this for gmail accounts: https://www.google.com/settings/security/lesssecureapps.  System.Net.Mail.SmtpClient sucks.
+# This only needs to be enabled for the SENDING gmail account that is specfied by the u/p below.  The subscribers do *not* need to enable this.
 $SMTPServer = "smtp.gmail.com"
 $SMTPPort = "587"
 $Username = "sendingGmailAccount@gmail.com"

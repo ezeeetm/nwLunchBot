@@ -98,8 +98,8 @@ function GetMsg ($locations)
     {
         log INFO "  getMsg: STARTED"
         $msg = ""
-        $today = Get-Date -Format "dddd,MMMM dd,yyyy"
-        #$today = (get-date).AddDays(2).ToString("dddd,MMMM dd,yyyy") #use this line instead when testing/debugging on days when there is no menu
+        $today = Get-Date -Format "dddd,MMMM d,yyyy"
+        #$today = (get-date).AddDays(2).ToString("dddd,MMMM d,yyyy") #use this line instead when testing/debugging on days when there is no menu
         $found = $false
 
         foreach ($location in $locations)
@@ -184,7 +184,7 @@ $msg = getMsg $locations
 
 if ($msg)
 {
-    sendMsg $subscribers $msg
+    #sendMsg $subscribers $msg
 }
 else
 {

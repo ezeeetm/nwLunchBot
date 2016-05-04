@@ -184,7 +184,7 @@ $msg = getMsg $locations
 
 if ($msg)
 {
-    #sendMsg $subscribers $msg
+    sendMsg $subscribers $msg
 }
 else
 {
